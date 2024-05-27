@@ -9,15 +9,18 @@ import { Courses } from "./Courses"
 import { Instructor } from "./Instructor"
 import { Blog } from "./Blog"
 import Contact from "../components/common/Contact"
+import Chatbot from "./Chatbot"
 
 export const Home = () => {
   return (
     <>
       <HomeContent />
+      <Chatbot />
       <About />
       <br />
       <br />
       <br />
+      <Chatbot />
       <Courses />
       <Instructor />
       <Blog />
