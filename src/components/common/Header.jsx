@@ -1,7 +1,7 @@
 import React, { useState } from "react"
 import LogoImg from "../assets/images/AUCA_RWANDA.jpg"
 import { LinkData } from "../assets/data/dummydata"
-import { NavLink } from "react-router-dom"
+import { NavLink, Link } from "react-router-dom"
 import { BiShoppingBag } from "react-icons/bi"
 import { HiOutlineMenuAlt1, HiViewGrid } from "react-icons/hi"
 
@@ -34,7 +34,7 @@ export const Header = () => {
             <button>
               <BiShoppingBag size={25} />
             </button>
-            <button>Login</button>{" "}
+            <Link to='/login'>Login</Link>{" "}
             <button className='open-menu' onClick={() => setOpen(!open)}>
               <HiOutlineMenuAlt1 size={25} />
             </button>

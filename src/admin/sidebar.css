@@ -1,0 +1,55 @@
+/* Sidebar Styles */
+.sidebar {
+    width: 64px;
+    transition: width 0.3s;
+  }
+  
+  .sidebar-expanded {
+    width: 224px;
+  }
+  
+  .sidebar img {
+    width: 40px;
+    transition: width 0.3s;
+  }
+  
+  .sidebar-expanded img {
+    width: 80px;
+  }
+  
+  .sidebar ul {
+    margin-top: 24px;
+  }
+  
+  .sidebar ul li {
+    margin-bottom: 24px;
+  }
+  
+  .sidebar ul li .sidebar-link {
+    display: flex;
+    align-items: center;
+    padding: 8px 16px;
+    border-radius: 8px;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  .sidebar ul li .sidebar-link:hover {
+    background-color: #f3f4f6;
+    color: #6366f1;
+  }
+  
+  .sidebar ul li .sidebar-link .icon {
+    color: #6366f1;
+  }
+  
+  .sidebar ul li .sidebar-link .text {
+    margin-left: 20px;
+    font-size: 14px;
+    color: #6b7280;
+    display: none;
+  }
+  
+  .sidebar-expanded .sidebar ul li .sidebar-link .text {
+    display: inline;
+  }
+  
